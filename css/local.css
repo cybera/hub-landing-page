@@ -11,8 +11,28 @@ section#about a, section#terms a {
     color: #eb3812;
 }
 
+.partners-box img {
+    height: 150px;
+}
+
 section#partners img#cybera {
+    width: 250px;
+    height: 75px;
+    margin-top: 35px;
+}
+
+section#partners img#canada-funding {
+    width: 250px;
+    height: 110px;
+    padding-top: 30px;
+}
+
+section#header img#cybera {
     width: 300px;
     height: 100px;
     margin-top: 40px;
+}
+
+header img#callysto {
+    width: 400px;
 }
