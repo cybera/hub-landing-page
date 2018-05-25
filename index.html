@@ -55,7 +55,13 @@
                     <a class="page-scroll" href="#about">About</a>
                 </li>
                 <li>
-                    <a class="page-scroll" href="http://intro.syzygy.ca">Tutorial</a>
+                  <a class="" href="mailto:{{ callysto_html_support_email }}">Support <i class="fa fa-envelope"></i></a>
+                </li>
+                <li>
+                  <a class="" href="http://callysto.ca">callysto.ca <i class="fa fa-external-link"></i></a>
+                </li>
+                <li>
+                    <a class="" href="http://intro.syzygy.ca">Tutorial</a>
                 </li>
                 <li>
                     <a class="page-scroll" href="#partners">Partners</a>
@@ -72,20 +78,24 @@
 
         <header>
   <div class="header-content">
-    <div class="container">
-      <div class="row">
-        <div class="col-lg-8 col-lg-offset-2 text-center">
-          <a href="https://jupyter.org/" target="_blank" >
-            <img src="/img/portfolio/jupyter-logo.svg" class="wow zoomIn" alt=""></a>
-        </div>
-      </div>
-    </div> <!-- end container -->
+    <div class="project-info">
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-8 col-lg-offset-2 text-center">
+        <a href="{{ callysto_html_url }}/jupyter/hub" target="_blank" >
+          <img src="/img/portfolio/callysto-logo.png" class="wow zoomIn" id="callysto" alt="">
+        </a>
+       </div>
+    </div>
+  </div>
+</div>
+
     <div style="margin-top:80px"></div>
 
     <div class="container">
       <div class="row">
         <div class="col-lg-12 text-center">
-            <h3 class="section-heading">Sign in with your {{ callysto_html_longname }} account</h3>
+            <h3 class="section-heading">Sign in with your account</h3>
         </div>
         <div style="margin-top:40px"></div>
       </div>
@@ -118,16 +128,31 @@
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-lg-6 col-md-6 text-center">
+            <div class="col-lg-4 col-md-4 text-center">
+                <div class="partners-box">
+                    <a href="https://www.cybera.ca/" target="_blank" >
+                    <img src="/img/portfolio/cybera-logo.png" class="wow zoomIn" alt="" id="cybera"></a>
+                </div>
+            </div>
+            <div class="col-lg-4 col-md-4 text-center">
                 <div class="partners-box">
                     <a href="http://www.pims.math.ca/" target="_blank" >
                     <img src="/img/portfolio/PIMS-circle-with-wordmark-CAPS.png" class="wow zoomIn" alt=""></a>
                 </div>
             </div>
-            <div class="col-lg-6 col-md-6 text-center">
+            <div class="col-lg-4 col-md-4 text-center">
                 <div class="partners-box">
-                    <a href="https://www.cybera.ca/" target="_blank" >
-                    <img src="/img/cybera-main.jpg" class="wow zoomIn" alt="" id="cybera"></a>
+                    <a href="http://jupyter.org/" target="_blank" >
+                    <img src="/img/portfolio/jupyter-logo.svg" class="wow zoomIn" alt=""></a>
+                </div>
+            </div>
+        </div>
+        <hr class="primary">
+        <div class="row">
+            <div class="col-lg-4 col-md-4 col-lg-offset-4 text-center">
+                <div class="partners-box">
+                    <a href="https://www.canada.ca/en/innovation-science-economic-development/programs/science-technology-partnerships/cancode.html" target="_blank" >
+                    <img src="/img/portfolio/canada-funding.png" class="wow zoomIn" id="canada-funding" alt=""></a>
                 </div>
             </div>
         </div>
@@ -141,6 +166,7 @@
                 <div class="funding-box">
                 <h2 class="section-heading hidden">About Jupyter</h2>
                 <!-- <hr class="light"> -->
+                <p class="text"><i class="fa fa-info-circle" aria-hidden="true"></i> <a href="https://callysto.ca">Callysto website</a></p>
                 <p class="text"><i class="fa fa-book" aria-hidden="true"></i> Interactive computing notebooks</p>
                 <p class="text"><i class="fa fa-cloud" aria-hidden="true"></i> Research tools accessed via browser</p>
                 <p class="text"><i class="fa fa-flask" aria-hidden="true"></i> Python 3, R </p>
@@ -185,7 +211,7 @@
                 <h2 class="section-heading hidden">Terms and conditions/Privacy policy</h2>
                 <!-- <hr class="light"> -->
                 <p class="text">{{ callysto_html_terms }}</p>
-                </div>
+                <p class="text">Questions? <a href="mailto:{{ callysto_html_support_email }}">Contact us</a></p>
             </div>
         </div>
     </div>
