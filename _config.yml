@@ -7,4 +7,4 @@ terms: "{{ callysto_html_terms }}"
 
 relative_permalinks: false
 
-exclude: [CNAME, README.md, LICENSE, ansible.sh]
+exclude: [CNAME, README.md, LICENSE, ansible.sh, mock_deploy]
