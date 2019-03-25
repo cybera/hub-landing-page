@@ -8,9 +8,9 @@ def render(tpl_path, context):
     ).get_template(filename).render(context)
 
 context = {
-  'callysto_html_url': "http://amii.jupyter.cybera.ca",
-  'callysto_html_domain': "amii.jupyter.cybera.ca",
-  'callysto_html_hostname': "amii.jupyter.cybera.ca",
+  'callysto_html_url': "http://educates.amii.ca",
+  'callysto_html_domain': "educates.amii.ca",
+  'callysto_html_hostname': "educates.amii.ca",
   'callysto_html_support_email': "datascience@cybera.ca",
   'callysto_html_logout_message': "You have been logged out of your Jupyter Session",
   'callysto_html_terms': """By using this service, you are indicating that you agree with the
